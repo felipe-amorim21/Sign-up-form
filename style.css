@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+}
+
+img{
+    height: auto;
+    max-width: 72%;
+    max-height: 90%;
+}
+
+.right{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center
+}
+
+p{
+    text-align: justify;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center
+}
+
+fieldset{
+    border: none;
+}
+
+button {
+    background-color: #4CAF50;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 7%;
+}
