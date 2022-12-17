@@ -8,27 +8,80 @@ body{
     display: flex;
 }
 
-.background img{
-    height: 100vh;
-    width: 24rem;
-    
+.left{
+    height: auto;
+    max-width: 40%;
+    max-height: 100%;
 }
 
-.form {
-    margin-top: 36px;
-    margin-left: 36px;
+img{
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p{
+    text-align: justify;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+form{
+    margin-top: 4rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center
+}
+
+fieldset{
+    border: none;
+}
+
+fieldset .fields {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+fieldset .form-left {
+    display: flex;
+    flex-flow: column;
+}
+
+fieldset .form-right {
+    display: flex;
+    flex-flow: column;
+}
+
+legend{
+    margin-bottom: 1rem;
+}
+
+.card {
+    background-color: #D3D3D3 ;
+    min-height: 18rem;
+    margin-bottom: 2rem;
+    padding: 24px;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
 }
 
 
-label,
-input {
 
-display: block;
-
+button {
+    background-color: #4CAF50;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 7%;
+    color: white;
+    margin-left: 2rem;
 }
 
 
-
-label {
-    margin-bottom: 5px;
-  }
