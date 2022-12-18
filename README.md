@@ -7,4 +7,4 @@ A sign-up form made to practice HTML and CSS design
 
 [Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
 
-[Clique aqui para acessar!](https://felipe-amorim21.github.io/Sign-up-form/)
+[Click here to see the page!](https://felipe-amorim21.github.io/Sign-up-form/)
