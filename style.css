@@ -128,3 +128,11 @@ button {
     text-decoration: none;
 }
 
+.error {
+    border:  1px solid red;
+    box-shadow: 1px 1px 8px #888888;
+}
+
+.pwderror{
+    color: red;
+}
