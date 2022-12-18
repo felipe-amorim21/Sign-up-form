@@ -1,7 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0px;
     box-sizing: border-box;
+    padding: 0px;
 }
 
 body{
@@ -9,20 +9,18 @@ body{
 }
 
 .left{
-    height: auto;
     max-width: 40%;
-    max-height: 100%;
+    max-height: 200%;
+    overflow: hidden
 }
 
 img{
-    height: auto;
+    min-height: 120%;
+    min-width: 100%;
     max-width: 100%;
-    max-height: 100%;
+    max-height: 120%;
 }
 
-p{
-    text-align: justify;
-}
 
 .right {
     display: flex;
@@ -31,16 +29,44 @@ p{
     flex-flow: column;
 }
 
+P {
+    margin-right: 11rem;
+    font-size: 20px;
+}
+
 form{
-    margin-top: 4rem;
+    margin-top: 1rem;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center
 }
 
+form div {
+    gap: 2rem;
+}
+
+ input {
+    box-sizing: border-box;
+    margin: 8px 0;
+    padding: 0.5rem;
+    outline: none;
+    border:  1px solid #E5E7EB;
+    border-radius: 0.3rem;
+}
+
+input:focus{
+    border:  1px solid blue;
+    box-shadow: 1px 1px 8px #888888;
+
+}
+
 fieldset{
     border: none;
+}
+
+label {
+    margin-right: 6rem;
 }
 
 fieldset .fields {
@@ -61,27 +87,44 @@ fieldset .form-right {
 
 legend{
     margin-bottom: 1rem;
+    font-size: 1.8rem;
 }
 
 .card {
-    background-color: #D3D3D3 ;
     min-height: 18rem;
     margin-bottom: 2rem;
-    padding: 24px;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    padding: 2rem;
+    width: 80%; 
+}
+
+.cardbox{
+    box-shadow: 1px 1px 8px #888888;
+    width: 100%; 
 }
 
 
 
 button {
-    background-color: #4CAF50;
+    background-color: #596D48;
     text-decoration: none;
-    padding: 12px;
-    border-radius: 7%;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.5rem;
     color: white;
     margin-left: 2rem;
 }
 
+.button p {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.button a {
+    color: #596D48;
+    text-decoration: none;
+}
 
